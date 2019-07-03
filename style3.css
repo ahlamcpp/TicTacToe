@@ -144,7 +144,7 @@ footer{
     background-color: rgba(255, 255, 255, 0.5);
     background-blend-mode: lighten;
     background-position: center ;
-    background-size: 100% ;
+    background-size: cover ;
     justify-content: center;
     clear: both; 
     background-repeat: no-repeat;
@@ -160,7 +160,7 @@ footer{
 }
 
   .contener {
-    margin-left: 300px;
+    margin-top: 100px;
     font-size: 40px;
     text-align: center;
     padding: 10px;
@@ -172,7 +172,6 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: auto;
 }
 
   .item {
@@ -192,12 +191,11 @@ footer{
    }
 
 .playeres{
-  font-size:14px;
+  font-size:7px;
 
 }
 h1{
-  margin: 100px;
-  margin-top: 30px;
+  margin: auto;
   background-color: rgba(226, 202, 214, 0.671);
   border-radius: 40px;
   color: rgb(57, 101, 117);
@@ -205,12 +203,12 @@ h1{
 #po{
     font-family: 'Special Elite', cursive;
     float: right;
-    padding:40px;
+    padding:10px;
   }
 #px{
     font-family: 'Special Elite', cursive;
     float: left;
-    padding:40px;
+    padding:10px;
   }
 
 #res{
@@ -222,9 +220,10 @@ h1{
   color: white;
   border-radius: 8px;
   position: relative;
-  bottom: 180px;
-  left: 240px;
-  font-size: 20px;
+  bottom: 0px;
+  left: 150px;
+  top: 60px;
+  font-size: 14px;
     
 }
 #level{
@@ -236,15 +235,14 @@ h1{
   color: white;
   border-radius: 8px;
   position: relative;
-  bottom: 170px;
-  left: 250px;
-  font-size: 20px;
+  bottom: 0px;
+  left: 135px;
+  font-size: 14px;
     
 }
 a:visited {
   color: white; 
 }
-
 
 footer{
   display: flex;
@@ -253,16 +251,14 @@ footer{
   font-family: 'Special Elite', cursive; 
   color:#C72687; 
   position: relative;
-  bottom: 100px;
+  bottom: 0px;
+  top: 85px;
+  left: 270px;
   background-color: rgba(226, 202, 214, 0.671);
   border-radius: 40px;
   padding:0px;
-  width: 150px;
-
+  width: 90px;
 }
-
-
-
 .tbl {
   display: table;
   width: 100%;
