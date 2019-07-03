@@ -75,7 +75,7 @@ const checkWinner = function (a) {
             win = false;
         }
         // all boxes is full >> Tie
-        if (count >= 10) {
+        if (count >= 10 && !gameOver && !win) {
             swal("Tie", " ", "warning");
         }
     });
@@ -124,3 +124,31 @@ function recordWin(winner) {
     $("#po").text("Player O : " + oWin);
 
 }
+
+//  Function that displays countdown 
+//  30 seconds for countdown 
+function counter($el, n, func) {
+    (function loop() {
+      $el.html(n);
+      if (n--) {
+        setTimeout(loop, 1000);
+      } else {
+        func();
+      }
+    })();
+  }
+  
+  var btn = $('#countdown-button');
+  var msg = "You'll explode in <span id='countdown'></span>...";
+  var sec = 20; //length of countdown
+  
+  btn.click(function() {
+    
+    btn.html(msg).removeClass("btn-primary").addClass("btn-danger disabled");
+    
+    counter($('#countdown'), sec, updateBtn);
+  });
+  
+  function updateBtn(){
+    btn.text("Start another Countdown!").removeClass("btn-danger disabled").addClass("btn-warning");
+  }
