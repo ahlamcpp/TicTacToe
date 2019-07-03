@@ -89,7 +89,7 @@ const checkWinner = function (a) {
             win = false;
         }
         // all boxes is full >> Tie
-        if (count >= 26) {
+        if (count >= 26 && !gameOver && !win) {
             swal("Tie", " ", "warning");
         }
     });
