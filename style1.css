@@ -154,7 +154,7 @@ a:visited {
   font-family:courier; 
   color:#C72687; 
   text-align:center;
-
+  display: none;
 }
   
   .contener {
