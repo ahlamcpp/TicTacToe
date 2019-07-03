@@ -230,8 +230,7 @@ footer{
     border-radius: 8px;
     position: relative;
     bottom: 0px;
-    left: 150px;
-    top: 90;
+    left: 145px;
     font-size: 14px;
       
   }
@@ -247,7 +246,6 @@ footer{
     position: relative;
     bottom: 0px;
     left: 150px;
-    top: 100;
     font-size: 14px; 
   }
   #level{
@@ -260,8 +258,7 @@ footer{
     border-radius: 8px;
     position: relative;
     bottom: 0px;
-    left: 150px;
-    top: 110px;
+    left: 130px;
     font-size: 14px;
       
   }
