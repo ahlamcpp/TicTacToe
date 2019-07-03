@@ -153,7 +153,7 @@ footer{
     background-color: rgba(255, 255, 255, 0.5);
     background-blend-mode: lighten;
     background-position: center ;
-    background-size: 100% ;
+    background-size: cover ;
     justify-content: center;
     clear: both; 
     background-repeat: no-repeat;
@@ -167,7 +167,7 @@ footer{
   
   }
   .contener {
-  margin-left: 300px;
+  margin-top: 300px;
   font-size: 40px;
   text-align: center;
   padding: 10px;
@@ -199,12 +199,11 @@ footer{
      }
   
   .playeres{
-    font-size:14px;
+    font-size:7px;
   
   }
   h1{
-    margin: 100px;
-    margin-top: 30px;
+    margin: auto;
     background-color: rgba(226, 202, 214, 0.671);
     border-radius: 40px;
     color: rgb(57, 101, 117);
@@ -212,12 +211,12 @@ footer{
   #po{
       font-family: 'Special Elite', cursive;
       float: right;
-      padding:40px;
+      padding:10px;
     }
   #px{
       font-family: 'Special Elite', cursive;
       float: left;
-      padding:40px;
+      padding:10px;
     }
   
   
@@ -230,9 +229,10 @@ footer{
     color: white;
     border-radius: 8px;
     position: relative;
-    bottom: 220px;
-    left: 255px;
-    font-size: 20px;
+    bottom: 0px;
+    left: 150px;
+    top: 60;
+    font-size: 14px;
       
   }
   
@@ -245,9 +245,10 @@ footer{
     color: white;
     border-radius: 8px;
     position: relative;
-    bottom: 210px;
-    left: 255px;
-    font-size: 20px; 
+    bottom: 0px;
+    left: 150px;
+    top: 65;
+    font-size: 14px; 
   }
   #level{
     display: flex;
@@ -258,9 +259,9 @@ footer{
     color: white;
     border-radius: 8px;
     position: relative;
-    bottom: 200px;
-    left: 230px;
-    font-size: 20px;
+    bottom: 0px;
+    left: 150px;
+    font-size: 14px;
       
   }
   a:visited {
@@ -273,11 +274,13 @@ footer{
     font-family: 'Special Elite', cursive; 
     color:#C72687; 
     position: relative;
-    bottom: 120px;
+    bottom: 0px;
+    top: 85px;
+    left: 270px;
     background-color: rgba(226, 202, 214, 0.671);
     border-radius: 40px;
     padding:0px;
-    width: 150px;
+    width: 90px;
   }
   
   .tbl {
