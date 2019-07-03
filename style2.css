@@ -164,7 +164,7 @@ footer{
     font-family:courier; 
     color:#C72687; 
     text-align:center;
-  
+    display: none;
   }
   .contener {
   margin-top: 300px;
