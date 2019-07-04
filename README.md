@@ -1,5 +1,6 @@
 # Tic Tac Toe 
-[Play the game here](https://ahlamcpp.github.io/TicTacToe/index1.html) :checkered_flag:
+This web-development game is a  project for [SEI](https://generalassemb.ly/) course at [Misk academy](https://misk.org.sa/miskacademy/) 
+* [Play the game here](https://ahlamcpp.github.io/TicTacToe/index1.html) :checkered_flag:
 
 ## How To Play: 
 The goal of this project is to make it possible for users to have a richer experience when playing TicTacToe. 
@@ -39,6 +40,12 @@ Once the game has a winner or there is a Tie, you will see a dialog informing ab
 * [HTML](https://www.w3schools.com/html/)
 * [CSS](https://www.w3schools.com/css/)
 
+## Some Features:
+* User could keep track of multiple game rounds with a win, lose and tie counter.
+* The game site is fully responsive so that it is playable from a mobile phone.
+* Unlimited countdown timer.
+* A user could moves between levels.
+* The game Involves Baby sharks song.
 
 ### Wireframe:
 <p align="center"><img src="./images/Wireframe.png" width="350" height="350" ></p>
